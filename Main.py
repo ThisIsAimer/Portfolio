@@ -14,3 +14,8 @@ with column2:
     I wanna become a great developer and take part in many projects and help make an impact in the world as we know it. 
     """
     web.info(about_me)
+
+description="""
+below are Some of the apps that i have built or will build with python! please feel free to contact me:
+"""
+web.write(f"<b>{description}</b>",unsafe_allow_html=True)
