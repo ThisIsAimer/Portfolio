@@ -21,14 +21,24 @@ below are Some of the apps that i have built or will build with python! please f
 """
 web.write(f"<b>{description}</b>",unsafe_allow_html=True)
 
-column3 ,  column4 = web.columns(2)
+column3 ,empty_column, column4 = web.columns([3,0.5,3])
 
 data = pandas.read_csv("data.csv",sep=";")
 print(data)
 
+
+
 with column3:
     for index,row in data[:10].iterrows():
         web.header(row["title"])
+        web.text(row["description"])
+        web.image(fr"images\{row['image']}")
+        web.write(fr"[Source code]({row['url']})")
+
+
 with column4:
     for index,row in data[10:].iterrows():
         web.header(row["title"])
+        web.text(row["description"])
+        web.image(fr"images\{row['image']}")
+        web.write(fr"[Source code]({row['url']})")
