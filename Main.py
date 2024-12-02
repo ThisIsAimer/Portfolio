@@ -11,7 +11,7 @@ with column1:
 with column2:
     web.title("Raunak Biswas")
     about_me = """
-    Hello this is Raunak! I am a python programmer, a student who is hardworking and ambitious. I completed by school in the year 2023.
+    Hello this is Raunak! I am a python programmer, a student who is hardworking and ambitious. I aspire to make applications that will create impact on the world.
     I wanna become a great developer and take part in many projects and help make an impact in the world as we know it. 
     """
     web.info(about_me)
@@ -33,7 +33,7 @@ with column3:
         web.header(row["title"])
         web.text(row["description"])
         web.image(fr"images\{row['image']}")
-        web.write(fr"[Source code]({row['url']})")
+        web.write(fr"[click to view]({row['url']})")
 
 
 with column4:
@@ -41,4 +41,4 @@ with column4:
         web.header(row["title"])
         web.text(row["description"])
         web.image(fr"images\{row['image']}")
-        web.write(fr"[Source code]({row['url']})")
+        web.write(fr"[click to view]({row['url']})")
