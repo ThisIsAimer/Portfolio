@@ -1,4 +1,5 @@
 import streamlit as web
+import pandas
 
 
 web.set_page_config(layout="wide")
@@ -19,3 +20,15 @@ description="""
 below are Some of the apps that i have built or will build with python! please feel free to contact me:
 """
 web.write(f"<b>{description}</b>",unsafe_allow_html=True)
+
+column3 ,  column4 = web.columns(2)
+
+data = pandas.read_csv("data.csv",sep=";")
+print(data)
+
+with column3:
+    for index,row in data[:10].iterrows():
+        web.header(row["title"])
+with column4:
+    for index,row in data[10:].iterrows():
+        web.header(row["title"])
