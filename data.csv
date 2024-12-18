@@ -1,10 +1,10 @@
 title;description;url;image
-Todo App;A distraction-free web app to help you focus on creating and completing tasks.;https://www.youtube.com/shorts/SXHMnicI6Pg;1.png
-Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://www.youtube.com/shorts/SXHMnicI6Pg;2.png
-PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;https://www.youtube.com/shorts/SXHMnicI6Pg;3.png
-PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://www.youtube.com/shorts/SXHMnicI6Pg;4.png
-Positive News Site;A website that gets data from a news API and uses sentiment analysis to publish only positive news.;https://www.youtube.com/shorts/SXHMnicI6Pg;5.png
-Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;https://www.youtube.com/shorts/SXHMnicI6Pg;6.png
+Todo App;A distraction-free web app to help you focus on creating and completing tasks.;https://github.com/ThisIsAimer/Python-basics;1.png
+Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://github.com/ThisIsAimer/Portfolio;2.png
+PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;https://github.com/ThisIsAimer/PDF_Template;3.png
+PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://github.com/ThisIsAimer/PDF_Invoices;4.png
+Positive News Site;A website that gets data from a news API and uses sentiment analysis to publish only positive news.;https://github.com/ThisIsAimer/Email-Daily-news;5.png
+Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;https://github.com/ThisIsAimer/Weather_forecast_dashboard;6.png
 Download Cleaner;A script that monitors the Downloads folder and deletes old files keeping the folder clean.;https://www.youtube.com/shorts/SXHMnicI6Pg;7.png
 Tour Scraper;A program that checks a music band's website and sends an email when there are new tours.;https://www.youtube.com/shorts/SXHMnicI6Pg;8.png
 Helper Chatbot;A chatbot that knows about a specific topic and answers questions regarding that topic.;https://www.youtube.com/shorts/SXHMnicI6Pg;9.png
